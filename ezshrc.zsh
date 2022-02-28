@@ -209,3 +209,7 @@ corona() {
         curl "https://corona-stats.online"
     fi
 }
+
+# show windows title
+echo "PROMPT=%m\ \$PROMPT" >> .zshrc
+
